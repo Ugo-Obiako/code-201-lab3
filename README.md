@@ -6,6 +6,10 @@ My name is Ugo Obiako.
 
 Here is a link to my [GitHub Profile](https://github.com/Ugo-Obiako)
 
+## Lab04: Pair Programming
+Driver: Kawika Miller
+Navigator: Ugo Obiako
+
 #### Here is a link to the screenshot of the page's accessibility score for lab 02.
 
 ![Accessibility Score](img/Screenshot.png "Accessibility Score")

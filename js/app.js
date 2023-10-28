@@ -2,22 +2,29 @@
             /*use strict. */
 
             //Initial greeting
-            var greetUser = prompt("Hello, What is your name?");
-            console.log(greetUser,", welcome to the site.");
-            alert(greetUser + ", welcome to the site.");
+            function greetCustomer(){
+                var greetUser = prompt("Hello, What is your name?");
+                console.log(greetUser,", welcome to the site.");
+                alert(greetUser + ", welcome to the site.");
+            }
 
+            greetCustomer();
 
             //1
-            var itemsOnDisplay = prompt("Did you see the items on display?", "yes or no")
-            if (itemsOnDisplay.toLowerCase() === "yes"){
-                console.log("Nice, the company has a variety of products")
-                alert("Nice, the company has a variety of products")
+            function marketsSurvey(){
+                var itemsOnDisplay = prompt("Did you see the items on display?", "yes or no")
+                if (itemsOnDisplay.toLowerCase() === "yes"){
+                    console.log("Nice, the company has a variety of products")
+                    alert("Nice, the company has a variety of products")
+                }
+                else if (itemsOnDisplay === "no"){
+                    console.log("Take a look, if you have time.")
+                    alert("Take a look, if you have time.")
+                }
+               else {alert("You did not enter yes or no")};  
             }
-            else if (itemsOnDisplay === "no"){
-                console.log("Take a look, if you have time.")
-                alert("Take a look, if you have time.")
-            }
-           else {alert("You did not enter yes or no")};
+
+            marketsSurvey();
 
 
             //2
@@ -93,8 +100,4 @@
             };
 
 
-
-
-
-     
 
