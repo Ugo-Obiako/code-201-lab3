@@ -78,9 +78,9 @@
             }
            else {alert("You did not enter yes or no")};
 
-
             //Ending greeting
-           alert(greetUser + ", thank you for visiting the site.");  
+           alert("Thank you for visiting the site."); 
+           
 
 
            //6
@@ -97,7 +97,35 @@
                 alert("That is right")
             }
             else {alert("You did not enter a number between 20 and 40")}
-            };
+            };   
+
+
+
+
+            //7
+            function guessGame(){    
+            for (i=0; i<6; i++){   
+            var shoppingList = ["bread", "tomatoes", "milk", "apples", "cheese"]
+            var spacedList = shoppingList.join(" ")
+            var guessOption = prompt("Guess an item in the shopping list")
+
+            if (guessOption.toLowerCase() === "bread" || guessOption.toLowerCase() === "tomtoes" || 
+                guessOption.toLowerCase() === "milk" || guessOption.toLowerCase() === "apples" ||
+                guessOption.toLowerCase() === "cheese" ) {
+                    alert(`That is correct, You entered ${guessOption}`);
+                }
+           else {alert("You entered a wrong item")};
+            }
+           alert("The correct answers are " + spacedList)
+            }
+
+            guessGame();
+
+
+
+
+
+           
 
 
 
