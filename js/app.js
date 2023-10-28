@@ -28,6 +28,7 @@
 
 
             //2
+            function faveMovie(){   
            var likeTheMovieOrNot = prompt("Do you like the movie?", "yes or no")
             if (likeTheMovieOrNot.toLowerCase() === "yes"){
                 console.log("That is good")
@@ -38,9 +39,13 @@
                 alert("Okay, there are other movies you can try.")
             }
            else {alert("You did not enter yes or no")};
+             }
+
+             faveMovie(); 
 
 
            //3
+           function commuteDist(){
            var commuteDistance = prompt("Are the two offices close to each other?", "yes or no")
             if (commuteDistance.toLowerCase() === "yes"){
                 console.log("That is right")
@@ -51,9 +56,12 @@
                 alert("Okay, that is good to know.")
             }
            else {alert("You did not enter yes or no")};
+             }
 
+             commuteDist();
 
             //4
+          function currentWeather(){
           var rainyDayOrNot = prompt("Is it raining in your location?", "yes or no")
             if (rainyDayOrNot.toLowerCase() === "yes"){
                 console.log("Okay, there is rain in today's weather forecast")
@@ -64,9 +72,14 @@
                 alert("good to know.")
             }
            else {alert("You did not enter yes or no")};
+            }
+
+            currentWeather();
+
 
 
             //5
+           function itemsPurchase(){
            var goingToStore = prompt("Are you going to store today?", "yes or no")
             if (goingToStore.toLowerCase() === "yes"){
                 console.log("alright")
@@ -77,6 +90,10 @@
                 alert("Okay. Just a reminder, the store will be closed tomorrow.")
             }
            else {alert("You did not enter yes or no")};
+            }
+
+            itemsPurchase();
+
 
             //Ending greeting
            alert("Thank you for visiting the site."); 
@@ -84,6 +101,7 @@
 
 
            //6
+           function numberGame(){
             
           for (i=1; i<=4; i++){   
             var guessNumber = prompt("Enter a number between 20 and 25")     
@@ -98,7 +116,9 @@
             }
             else {alert("You did not enter a number between 20 and 40")}
             };   
+            }
 
+            numberGame();
 
 
 
